@@ -15,13 +15,16 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     sidebar.cpp \
-    mainqmlcon.cpp \
-    toolbarmodel.cpp
+    Model/mainqmlcon.cpp \
+    Model/toolbarmodel.cpp \
+    Core/pluginmanager.cpp
 
 HEADERS  += mainwindow.h \
     sidebar.h \
-    mainqmlcon.h \
-    toolbarmodel.h
+    Interfaces/PluginInterFace.h \
+    Model/mainqmlcon.h \
+    Model/toolbarmodel.h \
+    Core/pluginmanager.h
 
 FORMS    += mainwindow.ui \
     sidebar.ui

@@ -1,6 +1,8 @@
 import QtQuick 2.0
 
 Item {
+    signal sideBarIndex(string index);
+
     width: confi.siderBarWidth;
     height: confi.siderBarHeight;
     ListView {
@@ -16,7 +18,11 @@ Item {
             }
             MouseArea {
             anchors.fill: parent
-            onClicked: toolBarItem.ListView.view.currentIndex = index;
+                onClicked: {
+                    toolBarItem.ListView.view.currentIndex = index;
+                    sideBarIndex(index);
+                    console.log(index);
+                }
             }
         }
 

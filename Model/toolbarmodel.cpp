@@ -1,4 +1,4 @@
-#include "toolbarmodel.h"
+#include "./Model/toolbarmodel.h"
 
 toolBarModel::toolBarModel(QObject *parent)
     : QObject(parent)

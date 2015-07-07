@@ -35,12 +35,6 @@
       <property name="spacing">
        <number>0</number>
       </property>
-      <item>
-       <widget class="QStackedWidget" name="stackedWidget">
-        <widget class="QWidget" name="page"/>
-        <widget class="QWidget" name="page_2"/>
-       </widget>
-      </item>
      </layout>
     </item>
    </layout>

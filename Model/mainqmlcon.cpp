@@ -1,4 +1,4 @@
-#include "mainqmlcon.h"
+#include "./Model/mainqmlcon.h"
 
 mainQmlCon::mainQmlCon()
 {
